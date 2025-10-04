@@ -1,0 +1,3 @@
+https://dynamicworld.app/explore      // this is the lastest one untill 2025, highly recommended
+https://livingatlas.arcgis.com/landcoverexplorer      // this one can be used but it only updated untill 2024
+https://esa-worldcover.org            // this one is invalid due to time update untill 2021
