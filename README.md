@@ -394,8 +394,8 @@ min_pdr_threshold=0.5  # Accept 50% PDR (strict, urban/critical)
 result = system.predict_and_optimize(
         # Coordinates (REQUIRED)
         # lat :-90 to 90, lon :-180 to 180
-        start_lat=28.992, start_lon=50.841,
-        dest_lat=28.986,dest_lon=50.840,
+        start_lat=28.992, start_lon=50.851,
+        dest_lat=28.992,dest_lon=50.951,
         
         # LoRa Parameters (REQUIRED)
         # SF 7-12 (higher = longer range, slower)
@@ -424,7 +424,7 @@ result = system.predict_and_optimize(
         min_pdr_threshold=0.3,     # 0.2-0.5 recommended
         # True/False (water = best RF, buildings = worst RF)
         prefer_water=True,         # Water = best RF propagation
-        avoid_buildings=True       # Buildings = worst RF propagation
+        avoid_buildings=True,       # Buildings = worst RF propagation
         # 0.1-10 km (higher = less accuracy)
         direct_path_threshold_km= 1.0  # 0.5-2.0 recommended
     )

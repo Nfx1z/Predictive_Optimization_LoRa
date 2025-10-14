@@ -1,0 +1,67 @@
+{
+  "best_model_name": "Random_Forest",
+  "performance": {
+    "RSSI_mse": 54.91860008120244,
+    "RSSI_r2": 0.8091249200561725,
+    "SNR_mse": 29.230516342475035,
+    "SNR_r2": 0.49723464974738274,
+    "path_loss_mse": 54.88852297026478,
+    "path_loss_r2": 0.8092294560593885,
+    "average_r2": 0.7051963419543146
+  },
+  "all_performances": {
+    "Neural_Network": {
+      "RSSI_mse": 80.19740620341817,
+      "RSSI_r2": 0.7212659044889862,
+      "SNR_mse": 35.93353968847129,
+      "SNR_r2": 0.38194254060991106,
+      "path_loss_mse": 79.4473193084524,
+      "path_loss_r2": 0.723872906412373,
+      "average_r2": 0.6090271171704235
+    },
+    "Random_Forest": {
+      "RSSI_mse": 54.91860008120244,
+      "RSSI_r2": 0.8091249200561725,
+      "SNR_mse": 29.230516342475035,
+      "SNR_r2": 0.49723464974738274,
+      "path_loss_mse": 54.88852297026478,
+      "path_loss_r2": 0.8092294560593885,
+      "average_r2": 0.7051963419543146
+    },
+    "XGBoost": {
+      "RSSI_mse": 55.130746705849575,
+      "RSSI_r2": 0.8083875832726517,
+      "SNR_mse": 29.198068179051276,
+      "SNR_r2": 0.497792758679078,
+      "path_loss_mse": 55.130765097935225,
+      "path_loss_r2": 0.808387519349121,
+      "average_r2": 0.7048559537669502
+    },
+    "Ensemble": {
+      "RSSI_mse": 56.108141064373285,
+      "RSSI_r2": 0.8049905515558198,
+      "SNR_mse": 28.988335801981346,
+      "SNR_r2": 0.5014001589309733,
+      "path_loss_mse": 55.864240446676206,
+      "path_loss_r2": 0.8058382525138275,
+      "average_r2": 0.7040763210002069
+    }
+  },
+  "feature_columns": [
+    "elevation",
+    "land_cover",
+    "terrain_penalty",
+    "distance_to_start",
+    "spreading_factor",
+    "frequency",
+    "tx_power",
+    "elevation_normalized",
+    "path_built_up_fraction",
+    "path_vegetation_fraction",
+    "path_water_fraction",
+    "path_avg_penalty",
+    "path_elevation_std",
+    "max_terrain_obstruction_m",
+    "path_dominant_land_cover"
+  ]
+}
