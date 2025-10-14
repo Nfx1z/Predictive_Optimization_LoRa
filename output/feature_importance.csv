@@ -1,0 +1,16 @@
+feature,importance
+elevation,0.04300605873282557
+land_cover,0.022416347087679867
+terrain_penalty,0.024285673674714976
+distance_to_start,0.251875980877529
+spreading_factor,0.06087038248476448
+frequency,0.0
+tx_power,0.0
+elevation_normalized,0.0433483143215004
+path_built_up_fraction,0.07398311543561935
+path_vegetation_fraction,0.01787757541258518
+path_water_fraction,0.10363432963492847
+path_avg_penalty,0.11689115370284157
+path_elevation_std,0.12526217431952083
+max_terrain_obstruction_m,0.06660281967538423
+path_dominant_land_cover,0.04994607464010605
