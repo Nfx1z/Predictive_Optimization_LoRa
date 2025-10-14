@@ -3,3 +3,4 @@
 .vscode/
 test.ipynb
 __pycache__/
+lora_system.log
