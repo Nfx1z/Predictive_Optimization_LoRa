@@ -246,25 +246,46 @@ CONFIG = {
         'random_state': 42
     },
     
-    # Neural network training configuration
-    'training': {
-        'batch_size': 64,
-        'epochs': 400,
-        'learning_rate': 0.001,
-        'weight_decay': 1e-5,
-        'early_stopping_patience': 20,
-        'scheduler': 'reduce_on_plateau',
-        'gradient_clip': 1.0
+    # Hyperparameter tuning configuration
+    'hyperparameter_tuning': {
+        'enable': True,              # Set to True to enable tuning
+        'nn_trials': 100,             # Number of trials for neural network
+        'rf_n_iter': 500,             # Number of iterations for Random Forest
+        'xgb_n_iter': 500,            # Number of iterations for XGBoost
+        'cv_folds': 5,               # Number of cross-validation folds
+        'tuning_data_ratio': 0.25     # Portion of training data to use for tuning
     },
     
-    # Neural network architecture
-    'model': {
-        'hidden_sizes': [256, 128, 64, 32],
-        'dropout_rate': 0.3,
-        'activation': 'relu',
-        'batch_norm': True,
-        'residual_connections': True
+    # Model hyperparameters (used only if hyperparameter tuning is disabled)
+    'model_hyperparams': {
+        'neural_network': {
+            'hidden_sizes': [256, 128, 64, 32],
+            'dropout_rate': 0.3,
+            'activation': 'relu',
+            'batch_size': 64,
+            'learning_rate': 0.001,
+            'weight_decay': 1e-5,
+            'epochs': 400,
+            'early_stopping_patience': 20,
+            'gradient_clip': 1.0
+        },
+        'random_forest': {
+            'n_estimators': 200,
+            'max_depth': None,
+            'min_samples_split': 2,
+            'min_samples_leaf': 1,
+            'max_features': None
+        },
+        'xgboost': {
+            'n_estimators': 200,
+            'learning_rate': 0.1,
+            'max_depth': 6,
+            'subsample': 1.0,
+            'colsample_bytree': 1.0,
+            'min_child_weight': 1
+        }
     },
+        
     
     # Google Earth Engine configuration
     'gee': {
