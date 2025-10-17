@@ -287,34 +287,24 @@
         "land_cover": 40
       },
       {
-        "lat": 51.69758383715409,
-        "lon": 0.14484495221046595,
-        "type": "beacon",
-        "pdr": 0.8165935149090126,
-        "rssi": -108.64627838134766,
-        "snr": 2.8337018489837646,
-        "elevation": 87.0,
-        "land_cover": 30
-      },
-      {
         "lat": 51.7,
         "lon": 0.14,
         "type": "receiver"
       }
     ],
     "metrics": {
-      "avg_pdr": 0.8153836994259328,
+      "avg_pdr": 0.815338891445078,
       "min_pdr": 0.6068933924230512,
-      "avg_rssi": -101.17593304864292,
-      "avg_snr": 3.7379725698767037,
-      "num_beacons": 29,
+      "avg_rssi": -100.90913500104632,
+      "avg_snr": 3.7702679527657375,
+      "num_beacons": 28,
       "model_used": "XGBoost",
       "routing_mode": "optimized"
     },
     "comparison": {
-      "direct_path_pdr": 0.6170549923613086,
-      "optimal_path_pdr": 0.8153836994259328,
-      "improvement_percent": 32.14117210293883
+      "direct_path_pdr": 0.6069039719619442,
+      "optimal_path_pdr": 0.815338891445078,
+      "improvement_percent": 34.34397023458657
     },
     "files": {
       "map": "output\\path_visualization.html"
