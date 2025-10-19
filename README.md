@@ -521,3 +521,15 @@ Every optimized path is compared against a direct-path baseline:
 This system represents a significant advancement in automated LoRa network planning through the integration of machine learning, spatial analysis, and graph-based optimization. By achieving **R² prediction accuracy of 0.71–0.81** and demonstrating **33.9% PDR improvements** in real-world test cases, the methodology validates the core hypothesis: **data-driven terrain-aware optimization significantly outperforms traditional direct-path approaches**.
 
 The key methodological contributions—**path-based feature engineering**, **terrain-aware PDR modeling**, and **adaptive grid optimization**—establish a foundation for future intelligent wireless network design. As LPWAN technologies continue proliferating in IoT applications, such automated planning tools will become essential for cost-effective, reliable deployments at scale.
+
+## 8. Program and Results
+
+**Main program: [train_process.ipynb](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/train_process.ipynb)**
+
+**Program Explanation: [Code _explanation.md](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/Code%20_explanation.md)**
+
+**Output Results: [output](https://github.com/Nfx1z/Predictive_Optimization_LoRa/tree/main/src/output)**
+
+**Models: [models](https://github.com/Nfx1z/Predictive_Optimization_LoRa/tree/main/src/models)**
+
+**Run [path_visualization.html](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/output/path_visualization.html) script to generate path visualization** 
