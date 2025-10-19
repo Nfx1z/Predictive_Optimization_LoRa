@@ -1,5 +1,11 @@
 # LoRa Path Optimization System - Technical Documentation
 
+- **Main program: [train_process.ipynb](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/train_process.ipynb)**
+- **Program Explanation: [Code _explanation.md](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/Code%20_explanation.md)**
+- **Output Results: [output](https://github.com/Nfx1z/Predictive_Optimization_LoRa/tree/main/src/output)**
+- **Models: [models](https://github.com/Nfx1z/Predictive_Optimization_LoRa/tree/main/src/models)**
+- **Run [path_visualization.html](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/output/path_visualization.html) script to generate path visualization** 
+
 ## Executive Summary
 
 This system implements an advanced machine learning-based approach to optimize LoRa network connectivity across challenging terrain. By intelligently predicting radio frequency propagation conditions and strategically placing relay beacons, the system maximizes packet delivery reliability while minimizing infrastructure deployment costs. The methodology combines spatial analysis, ensemble machine learning, and graph-based pathfinding to solve the complex problem of maintaining robust low-power wide-area network (LPWAN) connectivity in real-world environments.
@@ -522,14 +528,3 @@ This system represents a significant advancement in automated LoRa network plann
 
 The key methodological contributions—**path-based feature engineering**, **terrain-aware PDR modeling**, and **adaptive grid optimization**—establish a foundation for future intelligent wireless network design. As LPWAN technologies continue proliferating in IoT applications, such automated planning tools will become essential for cost-effective, reliable deployments at scale.
 
-## 8. Program and Results
-
-**Main program: [train_process.ipynb](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/train_process.ipynb)**
-
-**Program Explanation: [Code _explanation.md](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/Code%20_explanation.md)**
-
-**Output Results: [output](https://github.com/Nfx1z/Predictive_Optimization_LoRa/tree/main/src/output)**
-
-**Models: [models](https://github.com/Nfx1z/Predictive_Optimization_LoRa/tree/main/src/models)**
-
-**Run [path_visualization.html](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/output/path_visualization.html) script to generate path visualization** 
