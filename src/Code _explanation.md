@@ -4,24 +4,23 @@
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
 
-📋 **Table of Contents**
-- [Overview](#🎯-overview)
-- [Key Features](#✨-key-features)
-- [System Architecture](#️🏗️-system-architecture)
-- [Installation](#📦-installation)
-- [Configuration Guide](#️⚙️-configuration-guide)
-- [Parameter Reference](#📖-parameter-reference)
-- [Usage Examples](#💡-usage-examples)
-- [Model Training](#🎓-model-training)
-- [Technical Details](#🔬-technical-details)
-- [Troubleshooting](#🔧-troubleshooting)
-- [Additional Resources](#📜-additional-resources)
-- [Contributing](#🤝-contributing)
-- [FAQ](#❓-faq)
+**Table of Contents**
+- [Overview](#overview)
+- [Key Features](#-key-features)
+- [System Architecture](#️system-architecture)
+- [Installation](#installation)
+- [Configuration Guide](#️configuration-guide)
+- [Parameter Reference](#parameter-reference)
+- [Usage Examples](#usage-examples)
+- [Model Training](#model-training)
+- [Technical Details](#technical-details)
+- [Troubleshooting](#troubleshooting)
+- [Additional Resources](#additional-resources)
+- [FAQ](#faq)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This system uses machine learning and real-time satellite data to optimize LoRa network deployments by:
 
@@ -48,7 +47,7 @@ This system automatically finds the optimal beacon positions considering:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 1. Intelligent Routing
 - **Short distances (<1 km)**: Direct path (no beacons)  
@@ -90,7 +89,7 @@ This system automatically finds the optimal beacon positions considering:
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 
@@ -192,7 +191,7 @@ This system automatically finds the optimal beacon positions considering:
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher (recommended 3.10)  
@@ -207,6 +206,7 @@ cd Predictive_Optimization_LoRa
 
 ### Step 2: Install Dependencies
 ```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
 ```
 
@@ -223,7 +223,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ Configuration Guide
+## Configuration Guide
 
 ### CONFIG Dictionary Structure
 ```python
@@ -307,7 +307,7 @@ system = ImprovedLoRaSystem(config_dict=CONFIG)
 
 ---
 
-## 📖 Parameter Reference
+## Parameter Reference
 
 ### Coordinates (REQUIRED)
 | Parameter | Type | Range | Description |
@@ -384,7 +384,7 @@ system = ImprovedLoRaSystem(config_dict=CONFIG)
 
 ---
 
-## 💡 Usage Examples
+## Usage Examples
 
 ```python
 result_test = system.predict_and_optimize(
@@ -427,7 +427,7 @@ result_test = system.predict_and_optimize(
 
 ---
 
-## 🎓 Model Training
+## Model Training
 
 ### Dataset Requirements
 Your training data should have 15 features:
@@ -486,7 +486,7 @@ print(f"Best model: {model_name}")  # e.g., "XGBoost"
 
 ---
 
-## 🔬 Technical Details
+## Technical Details
 
 ### A* Cost Function
 ```python
@@ -562,7 +562,7 @@ weights = softmax(R² * 5)
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Errors
 
@@ -618,7 +618,7 @@ earthengine authenticate
 
 ---
 
-## 📜 Additional Resources
+## Additional Resources
 
 ### Acknowledgments
 - Google Earth Engine for providing free satellite data access  
@@ -647,7 +647,7 @@ earthengine authenticate
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 **Q1: Can I use this without Google Earth Engine?**  
 A: No, GEE is required for real terrain data. However, you can:  
@@ -701,46 +701,6 @@ A: Yes, modify `LoRaPhysicsEngine.calculate_pdr()` with your formula. Keep ML pr
 
 ---
 
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-### Reporting Issues
-```markdown
-## Issue Template
-
-**Description:**
-Brief description of the issue
-
-**Steps to Reproduce:**
-1. Step 1
-2. Step 2
-3. ...
-
-**Expected Behavior:**
-What you expected to happen
-
-**Actual Behavior:**
-What actually happened
-
-**Environment:**
-- Python version: 3.8
-- PyTorch version: 2.0.1
-- OS: Ubuntu 20.04
-
-**Error Message:**
-```
-
-### Pull Request Process
-1. Fork the repository  
-2. Create a feature branch: `git checkout -b feature/your-feature`  
-3. Make changes with clear commits  
-4. Add tests if applicable  
-5. Update documentation  
-6. Submit pull request with description  
 
 ---
 
