@@ -1,10 +1,10 @@
 # LoRa Path Optimization System - Technical Documentation
 
-- **Main program: [train_process.ipynb](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/train_process.ipynb)**
-- **Program Explanation: [Code _explanation.md](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/Code%20_explanation.md)**
-- **Output Results: [output](https://github.com/Nfx1z/Predictive_Optimization_LoRa/tree/main/src/output)**
-- **Models: [models](https://github.com/Nfx1z/Predictive_Optimization_LoRa/tree/main/src/models)**
-- **Run [path_visualization.html](https://github.com/Nfx1z/Predictive_Optimization_LoRa/blob/main/src/output/path_visualization.html) script to generate path visualization** 
+- **Main program: [train_process.ipynb](./src/train_process.ipynb)**  
+- **Program Explanation: [Code _explanation.md](./src/Code%20_explanation.md)**
+- **Output Results: [output](./src/output)**
+- **Models: [models](./src/models)**
+- **Run [path_visualization.html](./src/output/path_visualization.html) to generate path visualization** 
 
 ## Executive Summary
 
