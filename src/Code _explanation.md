@@ -17,6 +17,7 @@
 - [Troubleshooting](#troubleshooting)
 - [Additional Resources](#additional-resources)
 - [FAQ](#faq)
+- [License](#license)
 
 ---
 
@@ -701,6 +702,9 @@ A: Yes, modify `LoRaPhysicsEngine.calculate_pdr()` with your formula. Keep ML pr
 
 ---
 
+## License
+
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ---
 
