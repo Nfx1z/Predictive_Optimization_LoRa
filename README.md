@@ -3,6 +3,7 @@
 - **Main program: [train_process.ipynb](./src/train_process.ipynb)**  
 - **Program Explanation: [Code _explanation.md](./src/Code%20_explanation.md)**
 - **Output Results: [output](./src/output)**
+- **Image Result: [result_test.png](./src/output/result_test.png)**
 - **Models: [models](./src/models)**
 - **Run [path_visualization.html](./src/output/path_visualization.html) to generate path visualization** 
 
